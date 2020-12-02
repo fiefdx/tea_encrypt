@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
-tes_encrypt: Interleaving and padding random numbers TEA 
-             use c and cython or pure python
+tea_encrypt: Interleaving and padding random numbers TEA 
+             use c extension with cython or pure python
 '''
 
 from setuptools import setup

@@ -1,0 +1,24 @@
+# ignore packages
+
+*.zip
+*.rar
+*.tar.gz
+*.tar
+*.7z
+
+# ignore files
+
+*.log
+*.log.*
+*.pid
+*.pyc
+*.callgraph
+*.conf
+
+# ignore dirs
+
+build
+dist
+tea_encrypt.egg-info
+.DS_Store
+__pycache__

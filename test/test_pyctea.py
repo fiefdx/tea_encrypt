@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os
-import sys
-
 from tea_encrypt.utils.pyctea import tea_str_c_encrypt, tea_str_c_decrypt
 from tea_encrypt.utils.pytea import str_encrypt, str_decrypt
 

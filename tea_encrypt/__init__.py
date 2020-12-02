@@ -6,7 +6,7 @@ LOG = logging.getLogger(__name__)
 
 WITH_CTEA = False
 try:
-    import strtea
+    from tea_encrypt import strtea
     from tea_encrypt.utils import pyctea
     WITH_CTEA = True
 except ImportError:
